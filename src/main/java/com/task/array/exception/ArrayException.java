@@ -1,4 +1,4 @@
-package com.task.array.exceptions;
+package com.task.array.exception;
 
 public class ArrayException extends Exception {
     public ArrayException() {

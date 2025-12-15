@@ -1,13 +1,13 @@
 package com.task.array.service.impl;
 
 import com.task.array.entity.CustomizedArray;
-import com.task.array.exceptions.ArrayException;
+import com.task.array.exception.ArrayException;
 import com.task.array.service.SortService;
 
 public class SortServiceImpl implements SortService {
+
     @Override
     public void bubbleSort(CustomizedArray array) throws ArrayException {
-
         int[] elements = array.getArray();
         int n = elements.length;
 
@@ -22,13 +22,12 @@ public class SortServiceImpl implements SortService {
         }
 
         for (int i = 0; i < elements.length; i++) {
-            array = array.withElement(i, elements[i]);
+            array.setElement(i, elements[i]);
         }
     }
 
     @Override
     public void selectionSort(CustomizedArray array) throws ArrayException {
-
         int[] elements = array.getArray();
         int n = elements.length;
 
@@ -48,7 +47,7 @@ public class SortServiceImpl implements SortService {
         }
 
         for (int i = 0; i < elements.length; i++) {
-            array = array.withElement(i, elements[i]);
+            array.setElement(i, elements[i]);
         }
     }
 }

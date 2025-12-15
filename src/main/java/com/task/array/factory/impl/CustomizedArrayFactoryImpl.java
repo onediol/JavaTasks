@@ -1,7 +1,7 @@
 package com.task.array.factory.impl;
 
 import com.task.array.entity.CustomizedArray;
-import com.task.array.exceptions.ArrayException;
+import com.task.array.exception.ArrayException;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

@@ -1,7 +1,7 @@
 package com.task.array.service.impl;
 
 import com.task.array.entity.CustomizedArray;
-import com.task.array.exceptions.ArrayException;
+import com.task.array.exception.ArrayException;
 import com.task.array.service.CalculationService;
 
 public class CalculationServiceImpl implements CalculationService {
